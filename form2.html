@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            dropdown
+        </title>
+    </head>
+    <body>
+        <form>
+            <label for="uname">Username</label><br>
+            <input type="text" name="uname" id="uname" placeholder="enter you username">
+            <br><label >Gender</label><br><br>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label><br>
+            <label for="fv">Fruits and Vegtables</label>
+            <select name="fruits" id="fv" multiple>
+                <optgroup label="fruits">
+                    <option value="apple">apple</option>
+                    <option value="banana">banana</option>
+                    <option value="pineapple">pineapple</option>
+                </optgroup>
+                
+                <optgroup label="Vegtables">
+                    <option value="potato">potato</option>
+                    <option value="cucumber">cucumber</option>
+                    <option value="tomato">tomato</option>
+                </optgroup>
+            </select><br>
+
+            <label for="img">Image</label>
+            <input type="file" name="img" id="img" accept="Image/*"><br><br><br>
+
+            <input type="submit" value="submit">
+            <button type="reset">Reset</button>
+            
+
+        </form>
+    </body>
+</html>
